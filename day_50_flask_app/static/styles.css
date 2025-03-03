@@ -1,0 +1,50 @@
+body{
+    background-size: cover;
+    background-image: url(pix.jpg);
+    justify-content: center;
+    padding: 60px;
+    margin: 0;
+}
+
+.container{
+    text-align: center;
+    font-size: 200%;
+    margin-top: 10%;
+    color:rgb(38, 23, 100);
+    margin-bottom: 30%;
+}
+
+.container2{
+    text-align: center;
+    font-size: 200%;
+    margin-top: 10%;
+    color:rgb(101, 83, 191);
+    margin-bottom: 30%;
+}
+
+.navbar{
+    overflow: hidden;
+    background-color: rgb(56, 78, 90);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 1rem;
+}
+
+.navbar a{
+    float: right;
+    display: block;
+    text-align: center;
+    color: #afc7b7;
+    padding: 14px 16PX;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-right: 40px;
+}
+
+.navbar a:hover {
+    background-color: #2c4a36;
+    transition: 0.3s;
+}
